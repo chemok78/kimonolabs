@@ -11,7 +11,7 @@ gem 'mechanize'
 gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'crack', '~> 0.4.3'
-gem 'restclient', '~> 0.10.1'
+gem 'rest-client', '~> 1.8'
 gem 'nokogiri', '~> 1.6', '>= 1.6.7.1'
 gem 'json', '~> 1.8', '>= 1.8.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
