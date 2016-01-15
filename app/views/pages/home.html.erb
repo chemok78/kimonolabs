@@ -14,8 +14,8 @@
   </thead>
 
   <tbody>
-    <% @stocks = Stock.all %>  
-    <% @stocks.each do |stock| %>
+    <% @stocks = Stock.all.where(pe: (5..10000)) %>  
+    <% @stocks.order(pe: :asc).each do |stock| %>
       <tr>
         <td><%= stock.company %></td>
         <td><%= stock.pe %></td>

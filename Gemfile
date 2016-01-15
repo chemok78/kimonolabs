@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'crack', '~> 0.4.3'
 gem 'rest-client', '~> 1.8'
 gem 'nokogiri', '~> 1.6', '>= 1.6.7.1'
+gem 'whenever', '~> 0.9.4'
 gem 'json', '~> 1.8', '>= 1.8.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
